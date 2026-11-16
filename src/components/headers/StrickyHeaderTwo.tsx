@@ -73,7 +73,7 @@ const StrickyHeaderTwo: React.FC = () => {
                       Call Anytime
                     </p>
                     <h5 className="main-menu-two__call-number">
-                      <a href="tel:9288006780">+92 ( 8800 ) - 6780</a>
+                      <a href="tel:+15714059196">+1 (571) 405 9196</a>
                     </h5>
                   </div>
                 </div>

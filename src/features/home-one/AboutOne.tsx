@@ -3,17 +3,10 @@
 import React from 'react';
 import AboutOneShape1 from '@/assets/images/shapes/about-one-shape-1.png';
 import AboutOneShape2 from '@/assets/images/shapes/about-one-shape-2.png';
-import AboutOneAuthorSign from '@/assets/images/resources/about-one-author-sign.png';
-import AboutOneImg1 from '@/assets/images/resources/about-one-img-1.jpg';
-import AboutOneReviewImg11 from '@/assets/images/resources/about-one-review-img-1-1.jpg';
-import AboutOneReviewImg12 from '@/assets/images/resources/about-one-review-img-1-2.jpg';
-import AboutOneReviewImg13 from '@/assets/images/resources/about-one-review-img-1-3.jpg';
-import AboutOneReviewImg14 from '@/assets/images/resources/about-one-review-img-1-4.jpg';
-import AboutOneAuthorImg1 from '@/assets/images/resources/about-one-author-img-1.jpg';
+import AboutOneImg1 from '@/assets/images/services/service-details-img-2.jpg';
 import useTransportContext from '@/components/context/useTransportContext';
 import FadeInAdvanced from '@/components/elements/FadeInAdvanced';
 import Image from 'next/image';
-import CounterUp from '@/components/elements/CounterUp';
 import Link from 'next/link';
 import TextAnimation from '@/components/elements/TextAnimation';
 
@@ -40,26 +33,16 @@ const AboutOne: React.FC = () => {
                   </div>
                   <div className="about-one__review-and-experience-box">
                     <div className="about-one__review-box">
-                      <div className="about-one__review-star">
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                        <span className="fas fa-star"></span>
-                      </div>
                       <p className="about-one__review-text">
-                        Clients 4.8
+                        Inland Road Transport
                       </p>
                     </div>
                     <div className="about-one__experience-box">
                       <div className="about-one__experience-count">
-                        <h3>
-                          <CounterUp ending={15} />
-                        </h3>
-                        <span>+</span>
+                        <h3>Darfur</h3>
                       </div>
                       <p className="about-one__experience-count-text">
-                        Years Of <br /> Experience
+                        Regional <br /> Focus
                       </p>
                     </div>
                   </div>
@@ -67,7 +50,7 @@ const AboutOne: React.FC = () => {
                     <div className="about-one__round-text-box">
                       <div className="inner">
                         <div className="about-one__curved-circle rotate-me">
-                          {'WELCOME TO OUR COMPANY WORKING Poperly SINCE 2002'
+                          {'INLAND TRUCKING - WESTERN SUDAN - DARFUR'
                             .split('')
                             .map((char, index) => (
                               <span
@@ -87,7 +70,7 @@ const AboutOne: React.FC = () => {
                       </div>
                       <div className="overlay-icon-box">
                         <Link href="/about">
-                          <i className="icon-plane"></i>
+                          <i className="icon-truck"></i>
                         </Link>
                       </div>
                     </div>
@@ -128,20 +111,18 @@ const AboutOne: React.FC = () => {
                 </div>
                 <h3 className="section-title__title">
                   <TextAnimation animationStyle="style2">
-                    Your Trusted Partner in {''} <br />
-                    <span>Global Logistics</span>
+                    Inland Trucking <br />
+                    <span>Across Western Sudan</span>
                   </TextAnimation>
                 </h3>
               </div>
               <p className="about-one__text">
-                Freeny Global Logistics provides integrated logistics,
-                transportation, freight brokerage, procurement, and
-                supply chain consulting solutions for businesses
-                operating across the UAE, GCC, and international
-                markets. We combine industry expertise with a trusted
-                network of logistics partners to simplify complex
-                supply chains and help our clients move goods
-                efficiently, securely, and cost-effectively.
+                Freeny Global Logistics provides inland road transport
+                for goods across Western Sudan, with a focus on
+                Darfur. We support UN agencies, INGOs, and NGOs moving
+                operational and humanitarian cargo. Procurement,
+                freight brokerage, and logistics consultancy are
+                available as complementary services.
               </p>
               <div className="about-one__point-box">
                 <ul className="about-one__point">
@@ -152,9 +133,9 @@ const AboutOne: React.FC = () => {
                     <div className="about-one__point-content">
                       <h4>Our Mission</h4>
                       <p>
-                        We make logistics more efficient and reliable
-                        by delivering practical solutions tailored to
-                        each client's needs.
+                        We focus on inland trucking for organizations
+                        moving goods across Western Sudan, especially
+                        Darfur.
                       </p>
                     </div>
                   </li>
@@ -165,10 +146,9 @@ const AboutOne: React.FC = () => {
                     <div className="about-one__point-content">
                       <h4>Our Approach</h4>
                       <p>
-                        We combine industry expertise with trusted
-                        logistics partners to deliver flexible,
-                        dependable solutions across every stage of the
-                        supply chain.
+                        We discuss cargo, pickup point, destination,
+                        and timing to understand each transport
+                        request.
                       </p>
                     </div>
                   </li>
@@ -181,7 +161,7 @@ const AboutOne: React.FC = () => {
                       <span className="fas fa-check"></span>
                     </div>
                     <div className="text">
-                      <p>Quality Control System</p>
+                      <p>For UN Agencies, INGOs & NGOs</p>
                     </div>
                   </li>
                   <li>
@@ -189,7 +169,7 @@ const AboutOne: React.FC = () => {
                       <span className="fas fa-check"></span>
                     </div>
                     <div className="text">
-                      <p>Affrodable Cost</p>
+                      <p>Operational & Humanitarian Cargo</p>
                     </div>
                   </li>
                 </ul>
@@ -199,7 +179,7 @@ const AboutOne: React.FC = () => {
                       <span className="fas fa-check"></span>
                     </div>
                     <div className="text">
-                      <p>100% Satisfaction Guarantee</p>
+                      <p>Focused on Darfur</p>
                     </div>
                   </li>
                   <li>
@@ -207,7 +187,7 @@ const AboutOne: React.FC = () => {
                       <span className="fas fa-check"></span>
                     </div>
                     <div className="text">
-                      <p>On Time Delivery</p>
+                      <p>Additional Logistics Services</p>
                     </div>
                   </li>
                 </ul>

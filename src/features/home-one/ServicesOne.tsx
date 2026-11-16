@@ -28,8 +28,8 @@ export default function ServicesOne() {
           </div>
           <h3 className="section-title__title">
             <TextAnimation animationStyle="style1">
-              Provide Efficient Logistics <br />
-              <span>Solutions Business</span>
+              Inland Trucking Across Western Sudan <br />
+              <span>Plus Supporting Logistics Services</span>
             </TextAnimation>
           </h3>
         </div>

@@ -11,8 +11,9 @@ import FaqOne from '@/features/home-one/FaqOne';
 import React from 'react';
 
 export const metadata: Metadata = {
-  title:
-    'About Us | Freeny Global Logistics - Connecting Global Markets - Delivering Excellence',
+  title: 'About Freeny Global Logistics | Darfur & Western Sudan',
+  description:
+    'Learn about Freeny Global Logistics and its focus on inland road transport for UN agencies, INGOs, and NGOs in Western Sudan and Darfur.',
 };
 
 const page: React.FC = () => {

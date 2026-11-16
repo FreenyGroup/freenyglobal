@@ -8,8 +8,8 @@ export default function FindTransport() {
         <div className="find-transport__inner">
           <div className="find-transport__title-box">
             <h3 className="find-transport__title">
-              Looking for the Best
-              <br /> logistics Transport Service?
+              Planning an Inland Shipment
+              <br /> Across Western Sudan?
             </h3>
           </div>
           <div className="find-transport__btn-and-call">
@@ -18,9 +18,9 @@ export default function FindTransport() {
                 <span className="icon-phone-call"></span>
               </div>
               <div className="content">
-                <span>Call Us Free</span>
+                <span>Contact Our Team</span>
                 <p>
-                  <a href="tel:+9993256589">+1 571 405 9196</a>
+                  <a href="tel:+15714059196">+1 (571) 405 9196</a>
                 </p>
               </div>
             </div>

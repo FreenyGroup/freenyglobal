@@ -1,17 +1,21 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import FooterTwo from '@/components/footers/FooterTwo';
 import HeaderTwo from '@/components/headers/HeaderTwo';
 import StrickyHeaderTwo from '@/components/headers/StrickyHeaderTwo';
 import AboutTwo from '@/features/home-two/AboutTwo';
 import ContactTwo from '@/features/home-two/ContactTwo';
-import CounterTwo from '@/features/home-two/CounterTwo';
 import CtaOne from '@/features/home-two/CtaOne';
 import FeatureTwo from '@/features/home-two/FeatureTwo';
 import FindTransport from '@/features/home-two/FindTransport';
 import MainSlider from '@/features/home-two/MainSlider';
-import OfficeLocation from '@/features/home-two/OfficeLocation';
-import TestimonialTwo from '@/features/home-two/TestimonialTwo';
 import WhyChooseTwo from '@/features/home-two/WhyChooseTwo';
+
+export const metadata: Metadata = {
+  title: 'Inland Trucking in Darfur & Western Sudan | Freeny Global Logistics',
+  description:
+    'Freeny Global Logistics provides inland road transport for goods across Western Sudan, with a focus on Darfur, serving UN agencies, INGOs, and NGOs.',
+};
 
 const page = () => {
   return (
@@ -22,10 +26,7 @@ const page = () => {
       <AboutTwo />
       <WhyChooseTwo />
       <CtaOne />
-      <OfficeLocation />
-      <CounterTwo />
       <FindTransport />
-      <TestimonialTwo />
       <ContactTwo />
       <FooterTwo />
       <StrickyHeaderTwo />

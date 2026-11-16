@@ -1,6 +1,7 @@
 import ServicesOne11 from '@/assets/images/services/services-one-1-1.jpg';
 import ServicesOne12 from '@/assets/images/services/services-one-1-2.jpg';
 import ServicesOne13 from '@/assets/images/services/services-one-1-3.jpg';
+import DarfurRoadTransportImage from '@/assets/images/services/service-details-img-2.jpg';
 import { StaticImageData } from 'next/image';
 
 export interface ServiceItem {
@@ -15,12 +16,12 @@ export interface ServiceItem {
 export const servicesData: ServiceItem[] = [
   {
     id: 1,
-    title: 'Logistics & Transportation',
+    title: 'Inland Trucking in Western Sudan',
     link: '/logistics-transportation',
-    image: ServicesOne11,
+    image: DarfurRoadTransportImage,
     iconClass: 'icon-worldwide-shipping',
     count: '01',
-    text: 'Transportation coordination, freight forwarding support, warehousing, last-mile delivery',
+    text: 'Road transport for organizational and humanitarian goods, with a focus on Darfur.',
   },
   {
     id: 2,

@@ -37,9 +37,9 @@ const FooterTwo: React.FC = () => {
                     </Link>
                   </div>
                   <p className="footer-widget-two__about-text">
-                    Secure other greater pleasures, or else he endures
+                    Inland road transport across Western Sudan,
                     <br />
-                    pains to avoid worse pains selection{' '}
+                    with a focus on Darfur.
                   </p>
                   <ul className="footer-widget-two__contact list-unstyled">
                     <li>
@@ -49,7 +49,7 @@ const FooterTwo: React.FC = () => {
                       <div className="content">
                         <h5>Contact</h5>
                         <p>
-                          <a href="tel:885747546027">
+                          <a href="tel:+15714059196">
                             +1 (571) 405 9196
                           </a>
                         </p>
@@ -124,7 +124,7 @@ const FooterTwo: React.FC = () => {
                     </li>
                     <li>
                       <Link href="/logistics-transportation">
-                        Logistics Transportation
+                        Inland Trucking – Western Sudan
                       </Link>
                     </li>
                   </ul>
@@ -152,7 +152,7 @@ const FooterTwo: React.FC = () => {
         <div className="container">
           <div className="site-footer-two__bottom-inner">
             <p className="site-footer-two__bottom-text">
-              © Copywright 2026 by{' '}
+              © Copyright 2026 by{' '}
               <Link href="#">Freeny Global Logistics</Link> All Rights
               Reserved.
             </p>

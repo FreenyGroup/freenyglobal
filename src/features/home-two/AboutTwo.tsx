@@ -4,18 +4,12 @@ import AboutTwoShape2 from '@/assets/images/shapes/about-two-shape-2.png';
 import AboutTwoShape3 from '@/assets/images/shapes/about-two-shape-3.png';
 import AboutTwoShape4 from '@/assets/images/shapes/about-two-shape-4.png';
 import AboutTwoImg1 from '@/assets/images/resources/about-two-img-1.jpg';
-import AboutTwoImg2 from '@/assets/images/resources/about-two-img-2.jpg';
-import AboutOneAuthorImg1 from '@/assets/images/resources/about-one-author-img-1.jpg';
-import useTransportContext from '@/components/context/useTransportContext';
+import AboutTwoImg2 from '@/assets/images/services/service-details-img-2.jpg';
 import FadeInAdvanced from '@/components/elements/FadeInAdvanced';
 import Image from 'next/image';
-import CounterUp from '@/components/elements/CounterUp';
 import Link from 'next/link';
-import CirculaProgressOnView from '@/components/elements/CirculaProgressOnView';
-import TextAnimation from '@/components/elements/TextAnimation';
 
 export default function AboutTwo() {
-  const { handleVideoClick } = useTransportContext();
   return (
     <>
       {/*About Two Start*/}
@@ -35,7 +29,7 @@ export default function AboutTwo() {
                         src={AboutTwoImg1}
                         width={350}
                         height={330}
-                        alt=""
+                        alt="Road freight truck at a logistics terminal"
                       />
                     </div>
                     <div className="about-two__img-two">
@@ -43,7 +37,7 @@ export default function AboutTwo() {
                         src={AboutTwoImg2}
                         width={382}
                         height={360}
-                        alt=""
+                        alt="Cargo trucks ready for transport"
                       />
                     </div>
                     <div className="about-two__counter">
@@ -57,8 +51,8 @@ export default function AboutTwo() {
                       </div>
 
                       <p>
-                        Satisfaction <br />
-                        Guaranteed
+                        Focused on <br />
+                        Darfur
                       </p>
                     </div>
                     <div className="about-two__shape-2 float-bob-x">
@@ -106,20 +100,17 @@ export default function AboutTwo() {
                     </div>
                   </div>
                   <h3 className="section-title__title">
-                    Connecting Businesses to the World Through Smarter
-                    Logistics
+                    Moving Goods Across Western Sudan
                   </h3>
                 </div>
                 <p className="about-two__text">
-                  Freeny Global Logistics is a UAE-based logistics and
-                  supply chain company providing reliable
-                  transportation, freight brokerage, procurement, and
-                  consulting solutions across the UAE, GCC, and
-                  international markets. We combine industry
-                  expertise, trusted logistics partners, and a
-                  client-focused approach to simplify complex supply
-                  chains and help businesses move goods efficiently
-                  from origin to destination.
+                  Freeny Global Logistics provides inland road
+                  transport for goods across Western Sudan, with a
+                  focus on Darfur. We support UN agencies, INGOs, and
+                  NGOs moving operational and humanitarian cargo.
+                  Procurement, freight brokerage, and logistics
+                  consultancy remain available as complementary
+                  services.
                 </p>
                 <div className="about-two__point-box-one mt-4">
                   <ul className="about-two__point-one">
@@ -128,7 +119,7 @@ export default function AboutTwo() {
                         <span className="fas fa-check"></span>
                       </div>
                       <div className="text">
-                        <p>Reliable Logistics Solutions</p>
+                        <p>Inland Road Transport</p>
                       </div>
                     </li>
                     <li>
@@ -136,7 +127,7 @@ export default function AboutTwo() {
                         <span className="fas fa-check"></span>
                       </div>
                       <div className="text">
-                        <p>Global & Regional Reach</p>
+                        <p>Focused on Darfur</p>
                       </div>
                     </li>
                   </ul>
@@ -146,7 +137,7 @@ export default function AboutTwo() {
                         <span className="fas fa-check"></span>
                       </div>
                       <div className="text">
-                        <p>Expert Supply Chain Support</p>
+                        <p>Supporting UN Agencies & NGOs</p>
                       </div>
                     </li>
                     <li>
@@ -154,7 +145,7 @@ export default function AboutTwo() {
                         <span className="fas fa-check"></span>
                       </div>
                       <div className="text">
-                        <p>Trusted Partner Network</p>
+                        <p>Additional Logistics Services</p>
                       </div>
                     </li>
                   </ul>

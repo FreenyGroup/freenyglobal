@@ -35,11 +35,15 @@ export const pagesList: MenuItem[] = [
 
 // Services Dropdown
 export const servicesList: MenuItem[] = [
-  { id: 1, text: 'Services', url: '/services' },
+  {
+    id: 1,
+    text: 'Inland Trucking – Western Sudan',
+    url: '/logistics-transportation',
+  },
   {
     id: 2,
-    text: 'Freight Brokerage',
-    url: '/freight-brokerage',
+    text: 'All Services',
+    url: '/services',
   },
   {
     id: 3,
@@ -53,8 +57,8 @@ export const servicesList: MenuItem[] = [
   },
   {
     id: 5,
-    text: 'Logistics Transportation',
-    url: '/logistics-transportation',
+    text: 'Freight Brokerage',
+    url: '/freight-brokerage',
   },
 ];
 

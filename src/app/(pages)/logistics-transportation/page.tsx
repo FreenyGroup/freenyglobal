@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import ServiceDetailsImg1 from '@/assets/images/services/service-details-img-1.jpg';
+import ServiceDetailsImg1 from '@/assets/images/services/service-details-img-2.jpg';
 import ServiceDetailsImgBoxImg1 from '@/assets/images/services/service-details-img-box-img-1.jpg';
 import ServiceDetailsImgBoxImg2 from '@/assets/images/services/service-details-img-box-img-2.jpg';
 import DefaultBanner from '@/features/default-banner/DefaultBanner';
@@ -19,7 +19,7 @@ const Page: React.FC = () => {
     <>
       <DefaultBanner
         title="Services"
-        subTitle="Logistics & Transportation"
+        subTitle="Inland Trucking in Western Sudan"
         titleLink="/services"
       />
       <section className="service-details">
@@ -36,28 +36,21 @@ const Page: React.FC = () => {
                   />
                 </div>
                 <h3 className="service-details__title-1">
-                  Logistics & Transportation
+                  Inland Trucking for Western Sudan
                 </h3>
                 <p className="service-details__text-1">
-                  Freeny Global Logistics provides coordinated
-                  transportation and distribution solutions for
-                  businesses moving goods across the UAE, GCC, and
-                  international markets. We work with a network of
-                  trusted carriers, freight partners, and logistics
-                  providers to arrange the right transportation
-                  solution for each shipment, helping businesses move
-                  cargo efficiently while maintaining visibility and
-                  control throughout the process.
+                  Freeny Global Logistics provides inland road
+                  transport for goods across Western Sudan, with a
+                  particular focus on Darfur. We support UN agencies,
+                  international NGOs (INGOs), and NGOs with the
+                  movement of operational and humanitarian cargo.
                 </p>
                 <p className="service-details__text-2">
-                  From road freight and freight forwarding support to
-                  warehousing and last-mile distribution, we
-                  coordinate the resources needed to move your goods
-                  from origin to destination. Our flexible approach
-                  allows us to support individual shipments, recurring
-                  transportation needs, and growing businesses without
-                  the limitations of a traditional one-size-fits-all
-                  logistics model.
+                  Share the cargo details, pickup point, destination,
+                  and requested timing with our team to discuss your
+                  transport requirements. Freight brokerage,
+                  procurement, and logistics consultancy are also
+                  available as complementary services.
                 </p>
                 <ul className="service-details__points-list list-unstyled">
                   <li>
@@ -65,8 +58,8 @@ const Page: React.FC = () => {
                       <span className="icon-right-arrow"></span>
                     </div>
                     <p>
-                      Road freight coordination across the UAE and
-                      GCC.{' '}
+                      Inland road transport across Western Sudan, with
+                      a focus on Darfur.
                     </p>
                   </li>
                   <li>
@@ -74,8 +67,8 @@ const Page: React.FC = () => {
                       <span className="icon-right-arrow"></span>
                     </div>
                     <p>
-                      Freight forwarding and cross-border logistics
-                      support.
+                      Transport support for UN agencies, INGOs, and
+                      NGOs.
                     </p>
                   </li>
                   <li>
@@ -83,8 +76,7 @@ const Page: React.FC = () => {
                       <span className="icon-right-arrow"></span>
                     </div>
                     <p>
-                      Warehousing and last-mile distribution
-                      arrangements.
+                      Movement of operational and humanitarian goods.
                     </p>
                   </li>
                   <li>
@@ -92,8 +84,8 @@ const Page: React.FC = () => {
                       <span className="icon-right-arrow"></span>
                     </div>
                     <p>
-                      Flexible transportation solutions tailored to
-                      your shipment.
+                      Procurement, freight brokerage, and consultancy
+                      as additional services.
                     </p>
                   </li>
                 </ul>
@@ -107,15 +99,14 @@ const Page: React.FC = () => {
                               <span className="icon-new-product"></span>
                             </div>
                             <h3 className="service-details__img-box-content-title">
-                              Coordinated From Pickup to Delivery
+                              Share Your Route Requirements
                             </h3>
                           </div>
                           <p className="service-details__img-box-content-text">
-                            We manage the logistics process across
-                            multiple partners, coordinating
-                            transportation and delivery requirements
-                            to keep your shipment moving efficiently
-                            from origin to destination.
+                            Tell us what needs to move, where it will
+                            be collected, its destination, and the
+                            timing you need. Our team can discuss the
+                            transport requirements with you.
                           </p>
                         </div>
                       </div>
@@ -128,16 +119,13 @@ const Page: React.FC = () => {
                               <span className="icon-customer-loyalty"></span>
                             </div>
                             <h3 className="service-details__img-box-content-title">
-                              Flexible Solutions for Growing
-                              Businesses
+                              Transport for Aid Organizations
                             </h3>
                           </div>
                           <p className="service-details__img-box-content-text">
-                            Whether you need transportation for a
-                            single shipment or ongoing logistics
-                            support, we provide solutions that can
-                            adapt to your business and changing
-                            operational needs.
+                            We provide inland goods transport for UN
+                            agencies, INGOs, and NGOs operating in
+                            Western Sudan, especially Darfur.
                           </p>
                         </div>
                       </div>

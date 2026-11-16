@@ -21,7 +21,7 @@ const MainSlider: React.FC = () => {
               clickable: true,
             }}
             autoplay={{
-              delay: 8000,
+              delay: 6000,
               disableOnInteraction: false,
             }}
             loop={true}
@@ -45,22 +45,23 @@ const MainSlider: React.FC = () => {
                     <div className="col-xl-12">
                       <div className="main-slider__content">
                         <h4 className="main-slider__sub-title">
-                          Fast & Secure Logistics
+                          Inland Trucking for Humanitarian Operations
                         </h4>
                         <h2 className="main-slider__title">
-                          Transport Goods <br /> Priority
-                          <span>Logistics</span> <br />
-                          <span>Simplified</span>{' '}
+                          Goods on the Road <br />
+                          Across <span>Western Sudan</span>
                         </h2>
                         <p className="main-slider__text">
-                          We make shipping simple with fast, secure,
-                          and reliable transportation <br /> solutions
-                          that keep your goods moving efficiently from
-                          pickup to delivery.
+                          Inland transport for UN agencies, INGOs, and
+                          NGOs, with a focus on <br /> moving goods
+                          across Darfur and Western Sudan.
                         </p>
                         <div className="main-slider__btn-box">
-                          <Link href="/about" className="thm-btn">
-                            Discover More
+                          <Link
+                            href="/logistics-transportation"
+                            className="thm-btn"
+                          >
+                            Explore Transport
                             <span>
                               <i className="icon-right-arrow"></i>
                             </span>
@@ -96,78 +97,21 @@ const MainSlider: React.FC = () => {
                     <div className="col-xl-12">
                       <div className="main-slider__content">
                         <h4 className="main-slider__sub-title">
-                          100% Satisfaction
+                          Supporting Humanitarian Supply Chains
                         </h4>
                         <h2 className="main-slider__title">
-                          Humanitarian <br />{' '}
-                          <span> Supply Chain</span>
-                          <br />
-                          Procurement & <br /> Logistics Solutions
+                          Cargo Transport <br />
+                          Focused on <span>Darfur</span>
                         </h2>
                         <p className="main-slider__text">
-                          Reliable procurement and logistics solutions
-                          designed to deliver essential <br />{' '}
-                          supplies efficiently, securely, and on
-                          time—helping organizations make <br />a
-                          meaningful impact where it matters most.
+                          Practical road transport for organizational
+                          and humanitarian goods, <br /> with
+                          procurement and logistics support available
+                          as complementary services.
                         </p>
                         <div className="main-slider__btn-box">
-                          <Link href="/about" className="thm-btn">
-                            Discover More
-                            <span>
-                              <i className="icon-right-arrow"></i>
-                            </span>
-                          </Link>
-                        </div>
-                        <div className="main-slider__map">
-                          <Image
-                            src={MainSliderMap1}
-                            width={679}
-                            height={676}
-                            className="float-bob-y"
-                            alt="shape"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div
-                className={`swiper-slide ${activeIndex === 2 ? 'swiper-slide-active' : ''}`}
-              >
-                <div className="main-slider__pattern-bg"></div>
-                <div className="main-slider__bg-box">
-                  <div className="main-slider__bg bg_13"></div>
-                </div>
-                <div className="main-slider__shape-1"></div>
-                <div className="main-slider__shape-2"></div>
-                <div className="container">
-                  <div className="row">
-                    <div className="col-xl-12">
-                      <div className="main-slider__content">
-                        <h4 className="main-slider__sub-title">
-                          International Logistics
-                        </h4>
-                        <h2 className="main-slider__title">
-                          From Port, <br />
-                          To <span>Beneficiary</span>
-                          <br />
-                          <span>Anywhere in</span> <br />
-                          The World
-                        </h2>
-                        <p className="main-slider__text">
-                          Seamless international logistics solutions
-                          that move <br /> essential goods from ports
-                          to their final destination, <br />
-                          ensuring reliable delivery to beneficiaries
-                          wherever <br /> they are in the world.
-                        </p>
-                        <div className="main-slider__btn-box">
-                          <Link href="/about" className="thm-btn">
-                            Discover More
+                          <Link href="/contact" className="thm-btn">
+                            Discuss a Shipment
                             <span>
                               <i className="icon-right-arrow"></i>
                             </span>

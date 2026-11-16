@@ -32,19 +32,18 @@ export default function CtaOne() {
               />
             </div>
             <h2>
-              Ready to <span>Simplify</span> Your Logistics?
+              Need Goods <span>Transported</span> in Darfur?
             </h2>
             <p>
-              Whether you need reliable transportation, freight
-              brokerage, <br />
-              supply chain consulting, or procurement support, <br />
-              Freeny Global Logistics is ready to help. <br />
-              Contact us today to discuss your logistics needs <br />{' '}
-              and find the right solution for your business.
+              Talk with Freeny Global Logistics about inland road
+              transport <br />
+              across Western Sudan, with a focus on Darfur. <br />
+              Share your cargo, origin, destination, and timing <br />
+              so we can discuss the transport requirements.
             </p>
             <div className="cta-one__btn-box">
-              <Link href="/about" className="thm-btn">
-                Read More
+              <Link href="/contact" className="thm-btn">
+                Discuss a Shipment
                 <span>
                   <i className="icon-right-arrow"></i>
                 </span>

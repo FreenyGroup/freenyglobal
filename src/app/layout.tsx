@@ -30,8 +30,9 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title:
-    'Freeny Global Logistics - Connecting Global Markets - Delivering Excellence',
+  title: 'Freeny Global Logistics | Inland Trucking in Darfur, Sudan',
+  description:
+    'Inland road transport for goods across Western Sudan, with a focus on Darfur. Serving UN agencies, INGOs, and NGOs.',
 };
 
 export default function RootLayout({

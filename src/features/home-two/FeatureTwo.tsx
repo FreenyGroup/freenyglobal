@@ -19,15 +19,13 @@ export default function FeatureTwo() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="/emergency-transport">
-                        Reliable Global Logistics
+                      <Link href="/logistics-transportation">
+                        Inland Trucking in Darfur
                       </Link>
                     </h3>
                     <p className="feature-one__text">
-                      Move goods with confidence through coordinated
-                      transportation and logistics solutions designed
-                      to keep shipments secure, efficient, and on
-                      schedule.
+                      Road transport for goods across Western Sudan,
+                      with a particular focus on Darfur.
                     </p>
                   </div>
                 </div>
@@ -43,15 +41,14 @@ export default function FeatureTwo() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="/ocean-transport">
-                        End-to-End Supply Chain Solutions
+                      <Link href="/logistics-transportation">
+                        Western Sudan Road Transport
                       </Link>
                     </h3>
                     <p className="feature-one__text">
-                      From procurement and freight coordination to
-                      delivery and distribution, we connect every
-                      stage of the supply chain to simplify complex
-                      logistics.
+                      Inland trucking to support organizational
+                      shipments between agreed pickup and delivery
+                      points.
                     </p>
                   </div>
                 </div>
@@ -67,14 +64,13 @@ export default function FeatureTwo() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="/personal-delivery">
-                        Expert Logistics Consulting
+                      <Link href="/humanitarian-logistics-procurement">
+                        UN & NGO Cargo Support
                       </Link>
                     </h3>
                     <p className="feature-one__text">
-                      Optimize your supply chain with practical
-                      guidance on freight costs, network design,
-                      customs, compliance, and operational efficiency.
+                      Transport services for UN agencies, INGOs, and
+                      NGOs moving operational and humanitarian goods.
                     </p>
                   </div>
                 </div>
@@ -90,15 +86,14 @@ export default function FeatureTwo() {
                   </div>
                   <div className="feature-one__content">
                     <h3 className="feature-one__title">
-                      <Link href="/contact">
-                        Vetted Carrier Network
+                      <Link href="/services">
+                        Complementary Logistics Services
                       </Link>
                     </h3>
                     <p className="feature-one__text">
-                      Access a reliable network of vetted
-                      transportation partners with competitive rates,
-                      professional coordination, and dependable
-                      shipment management.
+                      Procurement, freight brokerage, and logistics
+                      consultancy are available alongside our core
+                      transport service.
                     </p>
                   </div>
                 </div>
